@@ -1,0 +1,53 @@
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #8282829c;
+}
+.modal {
+  padding: 20px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+.modal-content {
+  width: 309px;
+}
+.content {
+  overflow: auto;
+  height: 154px;
+}
+.sub-modal-content-1 {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+}
+.sub-modal-content-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.sub-modal-content-2 h5 {
+  width: 40%;
+}
+.sub-modal-content-2 p {
+  width: 60%;
+}
+.modal-container h1 {
+  margin: 10px 0px 10px 0px;
+  border-bottom: 2px solid aqua;
+  width: 100%;
+}
+.close-btn {
+  border-top: 2px solid aqua;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

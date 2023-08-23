@@ -1,0 +1,46 @@
+.searchtext {
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.searchSection {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+table {
+  border: 2px solid aqua;
+  width: 99%;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 4px;
+  text-align: center;
+  border-collapse: collapse;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+table > tr,
+th,
+td {
+  border: 2px solid aqua;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+td {
+  margin: 15px;
+  padding: 15px;
+}
+th {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+button:hover {
+  background-color: aqua;
+  transition: all 300ms ease-in-out;
+}
